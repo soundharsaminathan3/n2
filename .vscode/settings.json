@@ -1,0 +1,51 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "window.zoomLevel": 2,
+  "workbench.colorTheme": "Default High Contrast",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "explorer.confirmDelete": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "css.validate": false,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "breadcrumbs.enabled": false,
+  "editor.renderWhitespace": "none",
+  "editor.minimap.enabled": false,
+  "editor.snippetSuggestions": "top",
+  "beautify.language": {
+    "js": {
+      "type": ["javascript", "json"],
+      "filename": [".jshintrc", ".jsbeautifyrc"],
+      "ext": ["js", "json"]
+      // ^^ to set extensions to be beautified using the javascript beautifier
+    },
+    "css": ["css", "scss"],
+    "html": ["htm", "html"]
+    // ^^ providing just an array sets the VS Code file type
+  },
+  "javascript.preferences.quoteStyle": "single",
+  "typescript.preferences.quoteStyle": "single",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "material-icon-theme.activeIconPack": "react_redux",
+  // "material-icon-theme.files.associations": {
+  //   "**.js": "react"
+  // },
+  "material-icon-theme.folders.associations": {
+    "Elements": "layout"
+  },
+  "svg.preview.mode": "svg",
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true
+}

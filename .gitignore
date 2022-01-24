@@ -1,0 +1,9 @@
+/dist
+node_modules
+
+##TEST
+**/**/*tmp.js
+src/Temp/
+
+##Deploy
+hosting.*
